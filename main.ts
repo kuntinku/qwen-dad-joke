@@ -1,6 +1,6 @@
 import { writeFileSync } from 'node:fs';
 
-const JOKE = "I tried to build a clock out of aged cheese, but it turned out to be too brie-f.";
+const JOKE = "What's a ghost's favorite laundry detergent? Tide.";
 
 try {
   writeFileSync('/output/entry.txt', JOKE);
